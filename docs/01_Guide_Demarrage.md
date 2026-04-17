@@ -1,57 +1,35 @@
-# Getting Started Guide for Elevator Predictive Maintenance Project
+# Guide de Démarrage - Maintenance Prédictive des Ascenseurs
 
-## Introduction
-Welcome to the Elevator Predictive Maintenance Project! This guide will help you set up your development environment and get started with the project.
+## 🎯 Bienvenue!
 
-## Prerequisites
-Before you begin, make sure you have the following software installed:
-- **Python 3.x**: You can download it from [Python's official site](https://www.python.org/downloads/).
-- **Git**: You can download it from [Git's official site](https://git-scm.com/downloads).
-- **Virtual Environment**: It's recommended to use a virtual environment. You can install it via pip:
-  ```bash
-  pip install virtualenv
-  ```
+Ce projet te permettra de créer un **système IoT complet** pour surveiller et prédire les pannes d'ascenseurs avec un ESP32.
 
-## Setting Up the Project
-1. **Clone the Repository**: Open your terminal and run the following command:
-   ```bash
-   git clone https://github.com/Donaldseni226/Elevator-Predictive-Maintenance.git
-   ```
+---
 
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd Elevator-Predictive-Maintenance
-   ```
+## 📋 Prérequis (Ce que tu dois télécharger)
 
-3. **Create a Virtual Environment**:
-   ```bash
-   virtualenv venv
-   ```
+Avant de commencer, assure-toi d'avoir installé:
 
-4. **Activate the Virtual Environment**:
-   - On Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - On MacOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
+- ✅ **Arduino IDE** (pour programmer l'ESP32)
+  - Télécharge depuis: https://www.arduino.cc/en/software
 
-5. **Install Dependencies**:
-   Make sure to install all required dependencies. For that, run:
-   ```bash
-   pip install -r requirements.txt
-   ```
+- ✅ **Un navigateur web** (pour ThingSpeak)
+  - Chrome, Firefox, Safari, Edge
 
-## Running the Project
-Once everything is set up, you can start the project using:
-```bash
-python main.py
-```
+**C'est tout! Pas de Python nécessaire pour ce projet! 🎉**
 
-## Contributing
-We welcome contributions! Please fork the repository and create a pull request to propose changes.
+---
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🔧 Technologies utilisées
+
+| Technologie | Rôle |
+|-------------|------|
+| **ESP32** | Microcontrôleur principal |
+| **Arduino IDE** | Environnement de programmation |
+| **C++** | Langage de programmation |
+| **ThingSpeak** | Plateforme cloud pour stocker les données |
+| **WiFi** | Communication avec le cloud |
+
+---
+
+**Commençons! Bonne chance! 🚀💪**
