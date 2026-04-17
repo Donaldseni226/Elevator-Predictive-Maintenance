@@ -1,0 +1,8 @@
+1. ArduinoJson
+2. Servo
+3. Wire
+4. SPI
+5. LiquidCrystal
+6. NewPing
+7. Adafruit Sensor
+8. DHT sensor library
